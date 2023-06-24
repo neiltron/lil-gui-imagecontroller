@@ -1,0 +1,29 @@
+{
+  "name": "lil-gui-imagecontroller",
+  "private": true,
+  "license": "MIT",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./dist/lil-gui-imagecontroller.umd.js",
+  "module": "./dist/lil-gui-imagecontroller.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/lil-gui-imagecontroller.es.js",
+      "require": "./dist/lil-gui-imagecontroller.umd.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "lil-gui": "^0.18.2",
+    "prettier": "^2.8.8",
+    "rollup": "^3.25.1",
+    "vite": "^4.3.2"
+  }
+}
